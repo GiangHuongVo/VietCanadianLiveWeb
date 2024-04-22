@@ -12,6 +12,10 @@
   
 }
 
+.nav-tab.active {
+  background-color: #2913cc;
+}
+
 .nav-brand-text {
   font-size: 24px;
   color: #c2aeae;
@@ -570,3 +574,6 @@ h2 span a {
   margin-top: 100px;
 }
 
+.immigration_education_area {
+  background-color: #ffffff;
+}
