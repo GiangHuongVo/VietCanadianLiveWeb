@@ -26,9 +26,7 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
-Route::get('/immigration', function () {
-    return view('immigration');
-})->name('immigration');
+Route::get('/immigration', 'App\Http\Controllers\ImmigrationController@index')->name('immigration');
 
 Route::get('/education', function () {
     return view('education');
@@ -51,3 +49,6 @@ Route::get('/home/newspage', function () {
 })->name('/home/newspage');
 
 Route::get('/category',[CategoryController::class, 'index']);
+
+// Home example
+Route::get('/home_example', 'App\Http\Controllers\HomeExampleController@index')->name('home_example');

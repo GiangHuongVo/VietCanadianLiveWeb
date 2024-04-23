@@ -23,6 +23,24 @@ class PageSeeder extends Seeder
             'author'=>'Giang Test 1'
         ]);
 
+        Page::create([            
+            'title' => 'Apple 12',
+            'content' => 'First content',
+            'img_link' => 'img1',
+            'category_id'=> 1,
+            'province_id'=>1,
+            'author'=>'Giang Test 1'
+        ]);
+
+        Page::create([            
+            'title' => 'Apple 13',
+            'content' => 'First content',
+            'img_link' => 'img1',
+            'category_id'=> 1,
+            'province_id'=>1,
+            'author'=>'Giang Test 1'
+        ]);
+
         Page::create([           
             'title' => 'Apple 1',
             'content' => '2 content',

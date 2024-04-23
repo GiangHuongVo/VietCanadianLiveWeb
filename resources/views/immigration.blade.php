@@ -6,7 +6,11 @@
         <div class="immigration_education_area">
            <h2>Định cư</h2>
            <div class="single_post_content">
-            <p>Cập nhật sau...</p>
+            @foreach($pages as $page)               
+                <h3>{{$page->title}}</h3>
+                <hr>
+                <p>{{$page->content}}                    
+            @endforeach            
            </div>
         </div>
     </div>

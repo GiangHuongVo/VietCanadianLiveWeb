@@ -14,7 +14,7 @@ class CategorySeeder extends Seeder
      */
     public function run()
     {
-        $categories=['immigration','education', 'heath', 'transport', 'sport'];
+        $categories=['Định cư','Giáo dục', 'Y tế', 'Đi lại', 'Thể thao'];
         
         foreach($categories as $category){
             Category::create([

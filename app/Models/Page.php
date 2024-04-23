@@ -8,6 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Page extends Model
 {
     use HasFactory;
+    protected $fillable = [
+        'title',
+        'content',
+        'img_link',
+        'category_id',
+        'province_id',
+        'author'
+    ];
 
     public function category()
     {
