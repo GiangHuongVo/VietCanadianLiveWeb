@@ -9,7 +9,7 @@
             @foreach($pages as $page)               
                 <h3>{{$page->title}}</h3>
                 <hr>
-                <p>{{$page->content}}                    
+                <p>{{$page->content}}</p>                 
             @endforeach            
            </div>
         </div>

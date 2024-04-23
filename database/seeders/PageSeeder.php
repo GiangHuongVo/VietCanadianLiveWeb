@@ -16,8 +16,8 @@ class PageSeeder extends Seeder
     {
         Page::create([            
             'title' => 'Apple',
-            'content' => 'First content',
-            'img_link' => 'img1',
+            'content' => 'pagecontents/immigrations/immigrate1.html',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 1,
             'province_id'=>1,
             'author'=>'Giang Test 1'
@@ -25,8 +25,8 @@ class PageSeeder extends Seeder
 
         Page::create([            
             'title' => 'Apple 12',
-            'content' => 'First content',
-            'img_link' => 'img1',
+            'content' => 'pagecontents/immigrations/immigrate1.html',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 1,
             'province_id'=>1,
             'author'=>'Giang Test 1'
@@ -34,8 +34,8 @@ class PageSeeder extends Seeder
 
         Page::create([            
             'title' => 'Apple 13',
-            'content' => 'First content',
-            'img_link' => 'img1',
+            'content' => 'pagecontents/immigrations/immigrate1.html',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 1,
             'province_id'=>1,
             'author'=>'Giang Test 1'
@@ -44,7 +44,33 @@ class PageSeeder extends Seeder
         Page::create([           
             'title' => 'Apple 1',
             'content' => '2 content',
-            'img_link' => 'img2',
+            'img_link' => 'assets/images/logo.jpg',
+            'category_id'=> 2,
+            'province_id'=>2,
+            'author'=>'Giang Test 2'
+        ]);
+
+        Page::create([           
+            'title' => 'Apple 2',
+            'content' => '2 content',
+            'img_link' => 'assets/images/logo.jpg',
+            'category_id'=> 2,
+            'province_id'=>2,
+            'author'=>'Giang Test 2'
+        ]);
+
+        Page::create([           
+            'title' => 'Apple 2',
+            'content' => '2 content',
+            'img_link' => 'assets/images/logo.jpg',
+            'category_id'=> 2,
+            'province_id'=>2,
+            'author'=>'Giang Test 2'
+        ]);
+        Page::create([           
+            'title' => 'Apple 2',
+            'content' => '2 content',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 2,
             'province_id'=>2,
             'author'=>'Giang Test 2'
@@ -53,7 +79,7 @@ class PageSeeder extends Seeder
         Page::create([           
             'title' => 'Apple 2',
             'content' => '3 content',
-            'img_link' => 'img3',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 3,
             'province_id'=>3,
             'author'=>'Giang Test 3'
@@ -63,7 +89,7 @@ class PageSeeder extends Seeder
         Page::create([           
             'title' => 'Apple4',
             'content' => '4 content',
-            'img_link' => 'img4',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 4,
             'province_id'=>4,
             'author'=>'Giang Test 4'
@@ -73,7 +99,7 @@ class PageSeeder extends Seeder
         Page::create([           
             'title' => 'Apple5',
             'content' => '5 content',
-            'img_link' => 'img5',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 5,
             'province_id'=>5,
             'author'=>'Giang Test 5'
@@ -82,7 +108,7 @@ class PageSeeder extends Seeder
         Page::create([           
             'title' => 'Apple6',
             'content' => '6 content',
-            'img_link' => 'img6',
+            'img_link' => 'assets/images/logo.jpg',
             'category_id'=> 1,
             'province_id'=>3,
             'author'=>'Giang Test 6'
